@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d90b780-8131-4492-abcb-baf828d34237" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1hJBL3Kl8r5QHV56G6Pi9gSHyA2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="C:\Users\SPPZ\Documents\STK_projects\STKTable_PRoject\StkTable-spfx\node_modules\stylelint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\SPPZ\Documents\STK_projects\STKTable_PRoject\StkTable\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="bundle" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/StkTable/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="bundle" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/StkTable-spfx/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+        <item itemvalue="npm.bundle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d90b780-8131-4492-abcb-baf828d34237" name="Default Changelist" comment="" />
+      <created>1599719255158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599719255158</updated>
+      <workItem from="1599719256299" duration="618000" />
+      <workItem from="1599719912835" duration="708000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="590" y="409" key="#Stylelint" timestamp="1599719942570">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="409" key="#Stylelint/0.0.1920.1040@0.0.1920.1040" timestamp="1599719942570" />
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1599720427745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599720427745" />
+    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1599720427745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599720427745" />
+    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1599720427745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599720427745" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1599720427745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599720427745" />
+    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate" timestamp="1599719676396">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1599719676396" />
+  </component>
+</project>

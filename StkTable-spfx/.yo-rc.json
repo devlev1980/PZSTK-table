@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.11.0",
+    "libraryName": "stk-table-spfx",
+    "libraryId": "1a168b34-e9cf-4ece-a857-5dae5bec9097",
+    "environment": "onprem19",
+    "packageManager": "npm",
+    "solutionName": "StkTable-spfx",
+    "framework": "none",
+    "isCreatingSolution": true,
+    "componentType": "webpart"
+  }
+}

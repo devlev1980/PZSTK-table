@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "stk-table-spfx-client-side-solution",
+    "id": "1a168b34-e9cf-4ece-a857-5dae5bec9097",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/stk-table-spfx.sppkg"
+  }
+}

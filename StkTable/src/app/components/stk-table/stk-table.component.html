@@ -1,0 +1,122 @@
+<div class="container">
+
+  <table mat-table [dataSource]="dataSource"  matSort class="mat-elevation-z8">
+    <!-- Position Column -->
+    <ng-container matColumnDef="checkbox">
+      <th mat-header-cell *matHeaderCellDef>
+        <mat-checkbox (change)="$event ? masterToggle() : onSelectAll()"
+                      [checked]="selection.hasValue() && isAllSelected()"
+                      [indeterminate]="selection.hasValue() && !isAllSelected()" color="primary" >
+        </mat-checkbox>
+      </th>
+      <td mat-cell *matCellDef="let row">
+        <mat-checkbox (click)="$event.stopPropagation()"
+                      (change)="$event ? selection.toggle(row) || onCheck(row,$event) : null"
+                      [checked]="selection.isSelected(row)" color="primary" >
+        </mat-checkbox>
+      </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="itemName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Items Name</th>
+      <td mat-cell *matCellDef="let element">
+        <input type="text"  [value]="element.itemName" class="readonly" disabled >
+      </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="region">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Region</th>
+      <td mat-cell *matCellDef="let element">
+        <input type="text" [value]="element.region" class="readonly" disabled >
+      </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="customerName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Customer Name</th>
+      <td mat-cell *matCellDef="let element">
+        <input type="text" [value]="element.customerName" class="readonly" disabled >
+      </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="ecSalesPrice">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> EC Sales Price</th>
+      <td mat-cell *matCellDef="let element">
+        <input type="text" size="5" [value]="element.ecSalesPrice" class="readonly" disabled >
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="hqHtdCost">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> HQ STD Cost</th>
+      <td mat-cell *matCellDef="let element">
+        <input type="text" size="5" [value]="element.hqHtdCost" class="readonly" readonly >
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="transferPrice">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Transfer Price</th>
+      <td mat-cell *matCellDef="let element">
+        <input type="text" size="5" [value]="element.transferPrice" class="readonly" disabled >
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="localizationCost">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Localization Cost</th>
+      <td mat-cell *matCellDef="let element">
+        <input type="text" size="5" [value]="element.localizationCost" class="readonly" disabled
+        >
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="localCost">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Local Cost</th>
+      <td mat-cell *matCellDef="let element">
+        <input type="text" size="5" [value]="element.localCost" class="readonly" disabled>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="gm">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> GM %</th>
+      <td mat-cell *matCellDef="let element">
+        <input type="text" size="5" [value]="element.gm" class="readonly" disabled>
+      </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="jan20qty">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Jan-20 Qnty</th>
+      <td mat-cell *matCellDef="let element">
+        <input type="text" matInput >
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="jan20usd">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Jan-20 USD</th>
+      <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="feb20qty">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Feb-20 Qnty</th>
+      <td mat-cell *matCellDef="let element" > {{element.symbol}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="feb20usd">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Feb-20 USD</th>
+      <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+    </ng-container>
+
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;let i=index"
+    ></tr>
+  </table>
+
+  <div class="actions">
+    <button mat-raised-button color="primary" (click)="onSaveData()">Save</button>
+    <button mat-raised-button>Cancel</button>
+  </div>
+</div>
